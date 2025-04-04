@@ -1,0 +1,70 @@
+# Ignore bundler config and installed gems
+/.bundle/
+/vendor/bundle/
+Gemfile.lock
+
+# Ignore all logfiles and tempfiles
+/log/*
+!/log/.keep
+/tmp/
+
+# Ignore database files
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/db/cstore/
+
+# Ignore configuration files containing sensitive information
+/config/*.yml
+/config/deploy*
+
+# Ignore generated documentation
+/doc/
+/rdoc/
+
+# Ignore system and hidden files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Ignore Ruby environment files
+.ruby-version
+.ruby-gemset
+
+# Ignore test coverage reports
+/coverage/
+
+# Ignore IDE and editor files
+/.idea/
+/.vscode/
+*.sublime-project
+*.sublime-workspace
+/nbproject/
+
+# Ignore compiled Ruby files
+*.rbc
+*.sassc
+
+# Ignore gem builds
+/*.gem
+
+# Ignore environment normalization
+/.env
+
+# Ignore node modules if you're using any JavaScript
+/node_modules/
+
+# Ignore generated files
+/generated/
+/class-index.json
+
+# Ignore old or backup files
+*-old
+/old/
+
+# Ignore all hidden files and directories
+.*
+# But don't ignore the .gitignore file itself
+!.gitignore
+# Don't ignore .github directory if you're using GitHub Actions
+!.github/
