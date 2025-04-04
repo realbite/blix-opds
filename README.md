@@ -50,7 +50,7 @@ Example usage with all options:
 opds_routes :root => '/Public/Books', 
             :url => 'http://example.com', 
             :prefix => 'opds',
-            :types => ['.epub', '.pdf', '.mobi']
+            :types => [:epub, :pdf, :mobi]
 ```
 ## Standalone Usage
 
@@ -63,7 +63,7 @@ require 'blix/opds'
 generator = Blix::OPDS::Generator.new(
   '/path/to/your/books',
   'http://example.com/opds',
-  :types => ['.epub', '.pdf', '.mobi']
+  :types => [:epub, :pdf, :mobi]
 )
 
 # Generate the catalog for a specific path
